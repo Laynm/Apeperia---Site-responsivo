@@ -15,6 +15,9 @@
     box-sizing: border-box;
 
     padding: 2rem 0 2rem 5rem;
+
+    background-repeat: no-repeat;
+    background-position: top 1.25rem left 2.5rem;
 }
 
 .item__titulo {
@@ -24,6 +27,18 @@
     text-transform: uppercase;
 
     margin-bottom: 1.5rem;
+}
+
+.diferenciais__item--tempo {
+    background-image: url(../img/icone-relogio.png);
+}
+
+.diferenciais__item--foco {
+    background-image: url(../img/icone-dinheiro.png);
+}
+
+.diferenciais__item--especialistas {
+    background-image: url(../img/icone-quimica.png);
 }
 
 .item__texto {
